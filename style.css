@@ -1,0 +1,136 @@
+body {
+  background-color: var(--bs-dark);
+  color: black;
+  margin: 0;
+  font-family: 'Afacad', sans-serif;
+}
+
+header {
+  background-color: var(--bs-dark);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header a {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+header #titulo {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 40px;
+}
+
+header #titulo:hover {
+  color: #b4b4b4;
+}
+
+header a:hover {
+  font-size: 24px;
+  color: #b4b4b4;
+}
+
+#col-nav {
+  background-color: var(--bs-dark-bg-subtle);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 20px;
+  min-height: 100vh;
+}
+
+#col-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+#col-nav a:hover {
+  color: white;
+  font-size: 24px;
+}
+
+#col-nav ul {
+  flex-direction: column;
+  text-align: left;
+}
+
+.image-card {
+  text-decoration: none;
+}
+
+.image-card:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.image-card img {
+  height: 350px;
+  object-fit: cover;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#img-container img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 200px;
+}
+
+#img-container img:hover {
+  opacity: 1;
+}
+
+footer {
+  background-color: var(--bs-dark);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Afacad', sans-serif;
+  font-size: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  min-height: 100vh;
+}
+
+#div-login {
+  color: black;
+  padding: 20px;
+  text-align: -webkit-center;
+  font-size: 20px;
+  width: 50vw;
+}
+
+#login {
+  background-color: var(--bs-dark-bg-subtle);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  width: max-content;
+}
+
+#signin {
+  background-color: var(--bs-dark-bg-subtle);
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  width: max-content;
+}
